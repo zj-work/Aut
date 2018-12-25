@@ -1,17 +1,17 @@
 <template>
-  <div id="app">
+  <div id="body">
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'Body'
 }
 </script>
 
 <style>
-#app {
+#body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
